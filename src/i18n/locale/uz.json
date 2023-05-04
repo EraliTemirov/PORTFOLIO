@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "MAIN_HELLO_TEXT": "Assalomaleykum {{USERNAME}}! Najot Marketga xush kelibsiz! ",
+    "HEADER_HOME_LINK_TEXT": "Bosh sahifa",
+    "HEADER_ABOUT_LINK_TEXT": "Biz haqimizda",
+    "HEADER_LINKS": {
+      "HOME": "Bosh sahifa",
+      "ABOUT": "Biz haqimizda"
+    }
+  }
+}
