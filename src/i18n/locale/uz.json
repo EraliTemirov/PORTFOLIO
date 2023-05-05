@@ -1,8 +1,14 @@
 {
   "translation": {
-    "MAIN_HELLO_TEXT": "Assalomaleykum {{USERNAME}}! Najot Marketga xush kelibsiz! ",
+    "MAIN_HELLO_TEXT": "Assalomaleykum hurmatli {{USERNAME}}! Market playga xush kelibsiz! ",
     "HEADER_HOME_LINK_TEXT": "Bosh sahifa",
     "HEADER_ABOUT_LINK_TEXT": "Biz haqimizda",
+    "FOOTER_GENERAL_INFORMATION": "Umumiy malumotlar",
+    "FOOTER_ABOUT_ME":"Men haqimda",
+    "FOOTER_CONTACT_ME":"Men bilan bog'lanish",
+    "FOOTER_QUESTION_ANSWER":"Savol javob",
+    "FOOTER_CONNECT":"Ijtimoiy tarmoqlar yordamida bog'lanish",
+    "CARD_READ_MORE":"Batafsil..",
     "HEADER_LINKS": {
       "HOME": "Bosh sahifa",
       "ABOUT": "Biz haqimizda"

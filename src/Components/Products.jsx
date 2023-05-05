@@ -10,8 +10,8 @@ const Products = () => {
   // interpolation
 
   return (
-    <div className="container py-3">
-      <h1>{t("MAIN_HELLO_TEXT", { USERNAME: "Erali" })}</h1>
+    <div className="container py-3 text-center">
+      <h2>{t("MAIN_HELLO_TEXT", { USERNAME: "mijoz" })}</h2>
       {loading ? <PlaceholderCars /> : <ProductList products={products} />}
     </div>
   );

@@ -28,7 +28,7 @@ const Header = () => {
     <header className="text-bg-primary py-3 shadow sticky-top">
       <nav className="container d-flex align-items-center justify-content-between">
         <Link className="text-warning text-decoration-none fs-2" to="/">
-          Najot Market
+          Market Play
         </Link>
 
         <ul className="list-unstyled d-flex align-items-center gap-3 m-0">

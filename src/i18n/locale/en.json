@@ -3,6 +3,12 @@
     "MAIN_HELLO_TEXT": "Hello {{USERNAME}}! Welcome to Najot Market!",
     "HEADER_HOME_LINK_TEXT": "Home",
     "HEADER_ABOUT_LINK_TEXT": "About us",
+    "FOOTER_GENERAL_INFORMATION":"General information",
+    "FOOTER_ABOUT_ME":"About me",
+    "FOOTER_CONTACT_ME":"Contact me",
+    "FOOTER_QUESTION_ANSWER":"Question answer",
+    "FOOTER_CONNECT":"Connect via social networks",
+    "CARD_READ_MORE":"Read More..",
     "HEADER_LINKS": {
       "HOME": "Home",
       "ABOUT": "About"
