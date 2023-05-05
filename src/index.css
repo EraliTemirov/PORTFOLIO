@@ -9,3 +9,10 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
+.email{
+  width: 25px;
+}
+.corzinka_card{
+  min-height: 70vh;
+}

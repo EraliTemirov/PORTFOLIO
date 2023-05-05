@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
+import { useTranslation } from 'react-i18next';
 
 const ProductList = ({ products }) => {
   const dispatch = useDispatch();
@@ -8,6 +9,8 @@ const ProductList = ({ products }) => {
   function handleAddItemToCart(product) {
     dispatch({ type: "ADD_ITEM_TO_CART", payload: product });
   }
+
+   const {t}= useTranslation();
 
   return (
     <div className="row g-3">
@@ -38,13 +41,13 @@ const ProductList = ({ products }) => {
                   to={`/details/${product.id}`}
                   className="btn btn-primary col-6"
                 >
-                  Read More...
+                  {t("CARD_READ_MORE")}
                 </Link>
                 <button
                   onClick={() => handleAddItemToCart(product)}
                   className="btn btn-success col-6"
                 >
-                  Add To Cart
+                  {t("ADD_TO_CARD")}
                 </button>
               </div>
             </div>

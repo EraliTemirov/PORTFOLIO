@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <header className="text-bg-primary py-3 shadow sticky-top">
       <nav className="container d-flex align-items-center justify-content-between">
-        <Link className="text-warning text-decoration-none fs-2" to="/">
+        <Link className="text-warning text-decoration-none fs-1" to="/">
           Market Play
         </Link>
 

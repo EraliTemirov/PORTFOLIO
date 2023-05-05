@@ -9,6 +9,11 @@
     "FOOTER_QUESTION_ANSWER":"Question answer",
     "FOOTER_CONNECT":"Connect via social networks",
     "CARD_READ_MORE":"Read More..",
+    "ADD_TO_CARD":"Add To Card",
+    "TITLE_PRODUCT":"Title:",
+    "PRICE_PRODUCT":"Price:",
+    "CATEGORIA_PRODUCT":"Categoria",
+    "DESCRIPTION_PRODUCT":"Description",
     "HEADER_LINKS": {
       "HOME": "Home",
       "ABOUT": "About"

@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 import telegram from '../Imgs/Telegram.svg';
-import { useTranslation } from 'react-i18next';
+import facebook from '../Imgs/Facebook.svg';
+import email from '../Imgs/Gmail.png';
 
 
 
@@ -18,18 +20,19 @@ const {t} = useTranslation();
        Market Play
         </Link>
        <ul className='list-unstyled'>
-        <li className='fs-3 text-warning' >{t("FOOTER_GENERAL_INFORMATION")}</li>
-        <li> {t("FOOTER_ABOUT_ME")} </li>
-        <li> {t("FOOTER_CONTACT_ME")} </li>
-        <li> {t("FOOTER_QUESTION_ANSWER")} </li>
+        <li className='fs-3 text-white' >{t("FOOTER_GENERAL_INFORMATION")}</li>
+        <li className='fs-5'> {t("FOOTER_ABOUT_ME")} </li>
+        <li className='fs-5'> {t("FOOTER_CONTACT_ME")} </li>
+        <li className='fs-5'> {t("FOOTER_QUESTION_ANSWER")} </li>
        </ul>
        <ul className='list-unstyled'>
-        <li className='fs-3 text-warning'>{t("FOOTER_CONNECT")}</li>
-        <li className='fs-4'> <img src={telegram} alt="rasm"  /> Teligram</li>
-        <li>Facebook</li>
-        <li>Email   </li>
+        <li className='fs-3 text-white'>{t("FOOTER_CONNECT")}</li>
+        <li className='fs-5'> <img src={telegram} alt="rasm"  /> Teligram</li>
+        <li className='fs-5 mt-1'> <img src={facebook} alt="rasm" /> Facebook</li>
+        <li className='fs-5 mt-1'> <img src={email} alt="rasm" className='email' /> Email   </li>
        </ul>
       </div>
+      <hr />
     </div>
   )
 }
