@@ -1,8 +1,14 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
+import DetailPlaceholder from "./DetailPlaceholder";
+import useProducts from "../Hooks/useProducts";
 
 const Details = () => {
+
+
+  const [products, loading] = useProducts();
+
   const { id } = useParams();
   const [producte, producteRender] = useState([]);
   useEffect(() => {
@@ -17,6 +23,7 @@ const Details = () => {
 
   return (
     <div>
+      {loading ? <DetailPlaceholder /> : 
       <div className="container mt-5 mb-3 border border-5">
         <div className="d-flex justify-content-around">
           <img src={producte.image} className="w-25" alt="rasm" />
@@ -26,14 +33,14 @@ const Details = () => {
               <span className="des-span p-3"> {t("PRICE_PRODUCT")} </span> {producte.price}$
             </p>
             <p className="fs-3 p-3">
-              <span className="des-span">{t("CATIGORIA_PRODUCT")} </span> {producte.category}
+              <span className="des-span">{t("CATEGORIA_PRODUCT")} </span> {producte.category}
             </p>
           </div>
         </div>
         <p className="fs-4 w-75 container mt-3">
           <span className="des-span">{t("DESCRIPTION_PRODUCT")} </span> {producte.description}
          </p>
-      </div>
+      </div>}
     </div>
   );
 };

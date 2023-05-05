@@ -27,9 +27,10 @@ const {t} = useTranslation();
        </ul>
        <ul className='list-unstyled'>
         <li className='fs-3 text-white'>{t("FOOTER_CONNECT")}</li>
-        <li className='fs-5'> <img src={telegram} alt="rasm"  /> Teligram</li>
-        <li className='fs-5 mt-1'> <img src={facebook} alt="rasm" /> Facebook</li>
-        <li className='fs-5 mt-1'> <img src={email} alt="rasm" className='email' /> Email   </li>
+        <li className='fs-5'> <a href="https://t.me/Erali_temirov" target='_blanck'><img src={telegram} alt="rasm"  /></a> Teligram</li>
+        <li className='fs-5 mt-1'> <a href="https://www.facebook.com/profile.php?id=100078121026352"><img src={facebook} alt="rasm" /> </a>Facebook</li>
+        <li className='fs-5 mt-1'> <a href="mailto: eralitemirov129@gmail.com" target='_blanck'> <img src={email} alt="rasm" className='email' />  </a> Email </li>
+        
        </ul>
       </div>
       <hr />

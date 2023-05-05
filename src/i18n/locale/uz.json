@@ -12,8 +12,8 @@
     "ADD_TO_CARD":"Savatga qo'sh..",
     "TITLE_PRODUCT":"Mahsulot nomi:",
     "PRICE_PRODUCT":"Narx:",
-    "CATEGORIA_PRODUCT":"Toifa",
-    "DESCRIPTION_PRODUCT":"Malumot",
+    "CATEGORIA_PRODUCT":"Toifa: ",
+    "DESCRIPTION_PRODUCT":"Malumot:",
     "HEADER_LINKS": {
       "HOME": "Bosh sahifa",
       "ABOUT": "Biz haqimizda"
