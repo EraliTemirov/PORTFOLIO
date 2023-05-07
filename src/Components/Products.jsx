@@ -6,12 +6,12 @@ import ProductList from "./ProductList";
 const Products = () => {
   const [products, loading] = useProducts();
   const { t } = useTranslation();
-
+  
   // interpolation
-
+  
   return (
     <div className="container py-3 text-center">
-      <h2>{t("MAIN_HELLO_TEXT", { USERNAME: "mijoz" })}</h2>
+      <h2>{t("MAIN_HELLO_TEXT")}</h2>
       {loading ? <PlaceholderCars /> : <ProductList products={products} />}
     </div>
   );
