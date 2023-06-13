@@ -25,6 +25,7 @@ const Login = () => {
         navigate("/");
       }
     } catch (error) {
+      alert("email: eve.holt@reqres.in");
       toast(error.response.data.error, {
         type: "error",
       });
