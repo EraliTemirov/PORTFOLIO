@@ -1,5 +1,4 @@
 import React from "react";
-
 const PlaceholderCars = () => {
   return (
     <div className="row g-3">

@@ -19,7 +19,7 @@ const ProductList = ({ products }) => {
           <div className="card" aria-hidden="true">
             <img
               className="placeholder-card-image card-img-top"
-              src={product.image}
+              src={product.image} 
               alt={product.title}
             />
             <div className="card-body">
