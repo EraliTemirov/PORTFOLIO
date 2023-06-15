@@ -1,6 +1,6 @@
 let initialState = {
   items: [],
-  total: 2342,
+  total: 23,
 };
 
 function cartReducer(state = initialState, action) {
